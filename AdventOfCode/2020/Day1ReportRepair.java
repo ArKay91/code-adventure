@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Day1ReportRepair {
 
-
     public static void main(String[] args) {
         int[] expenses = new int[] {1531,1959,1344,1508,1275,1729,1904,1740,1977,1992,1821,1647,1404,
             1893,1576,1509,1995,1637,1816,1884,1608,1943,1825,1902,1227,1214,1675,1650,1752,1818,862,
@@ -18,7 +17,7 @@ public class Day1ReportRepair {
             2010,1951,858,1928,1562,1787,1916,1561,1694,1944,1922,1882,1691,589,1940,1624,1570,1557,1791,1492,
             1919,1615,1571,1657,1984,1521,1766,1790,1782,1874,1198,1764,1278,1688,1905,1786,1281};
 
-        //double fixingExpense = ReportRepair2TwoExpenses(expenses, 2020);
+        //String fixingExpense = ReportRepair2TwoExpenses(expenses, 2020);
         String fixingExpense = ReportRepairThreeExpenses(expenses, 2020);
 
         System.out.println("Fixed report expense : " + fixingExpense);
