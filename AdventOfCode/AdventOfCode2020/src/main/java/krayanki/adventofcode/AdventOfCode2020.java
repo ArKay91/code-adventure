@@ -15,13 +15,13 @@ public class AdventOfCode2020 {
     public static void main(String[] args) {
         LOGGER.setLevel(Level.INFO);
 
-        ClassLoader cl = AdventOfCode2020.class.getClassLoader();
+        //ClassLoader cl = AdventOfCode2020.class.getClassLoader();
 
         AOCChallangeManager aocChallangeManager = new AOCChallangeManager();
         aocChallangeManager.addAOCChallange(new Day2PasswordPhilosophy_1("day2_1", 
-                    new File(cl.getResource("./day_2.txt").getFile())));
+                    new File("AdventOfCode/AdventOfCode2020/src/main/resources/data/day_2.txt")));
         aocChallangeManager.addAOCChallange(new Day2PasswordPhilosophy_2("day2_2", 
-                    new File(cl.getResource("./day_2.txt").getFile())));
+                    new File("AdventOfCode/AdventOfCode2020/src/main/resources/data/day_2.txt")));
 
         //if(args.length != 1) {
         //    LOGGER.log(Level.SEVERE, "Not a valid input to run");

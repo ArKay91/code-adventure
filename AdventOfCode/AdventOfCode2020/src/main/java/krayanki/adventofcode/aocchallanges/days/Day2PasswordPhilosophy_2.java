@@ -28,8 +28,8 @@ public class Day2PasswordPhilosophy_2 extends AOCChallange {
                 char oneIndexChar = passToVerify.charAt(oneIndex-1);
                 char twoIndexChar = passToVerify.charAt(twoIndex-1);
     
-                if((oneIndexChar == charToVerify && twoIndexChar != charToVerify) && 
-                    (oneIndexChar != charToVerify && twoIndexChar == charToVerify)) {
+                if((oneIndexChar != charToVerify && twoIndexChar == charToVerify) || 
+                    (oneIndexChar == charToVerify && twoIndexChar != charToVerify)) {
                     matches++;
                 }
         });
