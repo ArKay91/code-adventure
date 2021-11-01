@@ -1,4 +1,4 @@
-package AdventOfCode.AdventOfCode2020.src.main.java.krayanki.adventofcode.aocchallanges.days;
+package AdventOfCode.AdventOfCode2020.src.main.java.krayanki.adventofcode.aocchallanges.days.day2;
 
 import java.io.File;
 import java.util.logging.Level;
