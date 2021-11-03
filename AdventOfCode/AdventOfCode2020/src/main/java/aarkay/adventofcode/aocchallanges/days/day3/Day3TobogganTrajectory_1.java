@@ -1,11 +1,11 @@
-package AdventOfCode.AdventOfCode2020.src.main.java.krayanki.adventofcode.aocchallanges.days.day3;
+package AdventOfCode.AdventOfCode2020.src.main.java.aarkay.adventofcode.aocchallanges.days.day3;
 
 import java.io.File;
 import java.util.List;
 import java.util.logging.Level;
 
-import AdventOfCode.AdventOfCode2020.src.main.java.krayanki.adventofcode.AdventOfCode2020;
-import AdventOfCode.AdventOfCode2020.src.main.java.krayanki.adventofcode.aocchallanges.AOCChallange;
+import AdventOfCode.AdventOfCode2020.src.main.java.aarkay.adventofcode.AdventOfCode2020;
+import AdventOfCode.AdventOfCode2020.src.main.java.aarkay.adventofcode.aocchallanges.AOCChallange;
 
 public class Day3TobogganTrajectory_1 extends AOCChallange {
     

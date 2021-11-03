@@ -1,4 +1,4 @@
-package AdventOfCode.AdventOfCode2020.src.main.java.krayanki.adventofcode.aocchallanges;
+package AdventOfCode.AdventOfCode2020.src.main.java.aarkay.adventofcode.aocchallanges;
 
 import java.util.ArrayList;
 import java.util.List;
