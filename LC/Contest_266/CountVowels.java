@@ -7,7 +7,7 @@ public class CountVowels {
 
     }
 
-    private long countVowels(String word) {
+    public long countVowels(String word) {
         long ans = 0;
         long size = word.length();
         
